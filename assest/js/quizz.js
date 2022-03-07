@@ -6,21 +6,21 @@ var questions = [
         answer:"Montgomery"
     },
     {
-      title:"Question 2",
-      choices:[ "answer a ", "answer b", "answer c", "answer d"],
-      answer:"answer a"
+      title:"What is the capital of the US state, Michigan?",
+      choices:[ "Detroit", "Grand Rapids", "Lansing", "East Lansing"],
+      answer:"Lansing"
     },
 
     {
-      title:"Question 3",
-      choices:[ "answer a ", "answer b", "answer c", "answer d"],
-      answer:"answer a"
+      title:"Which shoe company sells Air Jordan shoe brand?",
+      choices:[ "Adidas", "Puma", "New Balance", "Nike"],
+      answer:"Nike"
     },
 
     {
-      title:"Question 4",
-      choices:[ "answer a ", "answer b", "answer c", "answer d"],
-      answer:"answer a"
+      title:"What will an Apple a day keep away from you?",
+      choices:[ "Sun light ", "The Doctor", "Air", "Your Mother-In-law"],
+      answer:"The Doctor"
     }
 
 
@@ -57,7 +57,7 @@ function startQuiz() {
   getQuestion();
 }
 
-//reaching into the DOM by utlilzing the ID and setting the attributes to the questions
+//reaching into the DOM by utilizing the ID and setting the attributes to the questions
 function getQuestion() {
 
   var currentQuestion = questions[currentQuestionIndex];
@@ -81,7 +81,7 @@ function getQuestion() {
   });
 }
 
-//checking if the response if correct of not.  Time is redcued by 15 seconds also providing feedback
+//checking if the response if correct of not.  Time is reduced by 15 seconds also providing feedback
 function questionClick() {
 
   if (this.value !== questions[currentQuestionIndex].answer) {
