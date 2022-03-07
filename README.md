@@ -7,7 +7,7 @@
 - [License](#License)
 
 ## Description
-As a user, I want to be able to take a quiz where I am prompted with questions and answer options.  If I select the correct answer, Iam provied feedback.  If I selct the inccorect answer, I am provided feedback and time of availablity will be reduced.  At the end of the quiz, I will be prompted to submit my initials where they are saved to local storage.   
+As a user, I want to be able to take a quiz where I am prompted with questions and answer options.  If I select the correct answer, Iam provided feedback.  If I select the incorrect answer, I am provided feedback and time of availability will be reduced.  At the end of the quiz, I will be prompted to submit my initials where they are saved to local storage.   
 
 ## Deployment:
 GitHub Repo: https://github.com/mbutlertechtraining/webapichallenge
