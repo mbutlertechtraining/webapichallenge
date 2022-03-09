@@ -1,0 +1,150 @@
+body {
+  font-size: 10%;
+}
+
+h1 {
+  color: rgb(30, 56, 112);
+}
+
+a {
+  color: rgb(30, 56, 112);
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color:  rgb(94, 116, 163);
+}
+
+
+.choices button {
+  display: block;
+}
+
+
+a {
+  color: rgb(30, 56, 112);
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color:  rgb(94, 116, 163);
+}
+
+button {
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 90%;
+  background-color: rgb(30, 56, 112);
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 3px 5px #88888883;
+  
+}
+
+button:hover {
+  background-color: rgb(94, 116, 163);
+}
+
+
+input[type="text"] {
+  font-size: 100%;
+}
+body {
+  font-family: Arial;
+  font-size: 120%;
+}
+h1 {
+  color: rgb(30, 56, 112);
+}
+
+a {
+  color: rgb(30, 56, 112);
+  transition: color 0.1s;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: rgb(94, 116, 163);
+}
+
+
+.choices button {
+  display: block;
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 100%;
+  background-color: rgb(30, 56, 112);
+  border-radius: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.1s;
+  color: white;
+  border: 0;
+}
+
+button:hover {
+  background-color:  rgb(94, 116, 163);
+}
+
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+ol {
+  padding-left: 0px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+li:nth-child(odd) {
+  background-color: #f3edfc;
+}
+
+.container {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hide {
+  display: none;
+}
+
+.start {
+  text-align: center;
+}
+
+
+.feedback {
+  font-style: italic;
+  font-size: 120%;
+  color: gray;
+  border-top: 2px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
